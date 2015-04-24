@@ -1,8 +1,8 @@
-#download the data
-fileUrl<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(fileUrl,destfile="E:/CursoGetData/project/Dataset.zip")
+#download the data   (optional)
+#fileUrl<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+#download.file(fileUrl,destfile="E:/CursoGetData/project/Dataset.zip")
 #set the working diretory
-setwd("E:/CursoGetData/project/")
+#setwd("E:/CursoGetData/project/")
 ##unzip the data
 unzip("Dataset.zip")
 makeTidy<-function(){
